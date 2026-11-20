@@ -3,7 +3,7 @@ classdef bh_brick_CLS
         Length     (1,1) {isnumeric, mustBePositive} =   30/100;  % (m)
         Height     (1,1) {isnumeric, mustBePositive} =   5/100;   % (m)
         Thickness  (1,1) {isnumeric, mustBePositive} =   1/100;   % (m)
-        Mass       (1,1) {isnumeric, mustBePositive} =   0.1875;  % (kg)
+        Mass       (1,1) {isnumeric, mustBePositive} =   0.1875;  %  (kg)
 
         LHT_body_axes (1,1) string {mustBeMember(LHT_body_axes,["XYZ", "YZX"])} = "YZX"'
     end
